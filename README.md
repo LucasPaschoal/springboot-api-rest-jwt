@@ -42,8 +42,8 @@ Arquivo `application.properties`:
 server.port=8081
 
 spring.datasource.url=jdbc:postgresql://localhost:5432/meubanco
-spring.datasource.username=postgres
-spring.datasource.password=root
+spring.datasource.username=SEU-USUARIO
+spring.datasource.password=SUA-SENHA
 spring.datasource.driver-class-name=org.postgresql.Driver
 
 spring.jpa.hibernate.ddl-auto=update
