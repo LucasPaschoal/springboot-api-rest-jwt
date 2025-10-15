@@ -1,11 +1,11 @@
-# 🔐 AuthWichProducts
+#  AuthWichProducts
 
 API REST desenvolvida em **Spring Boot**, com **autenticação JWT** e **gerenciamento de produtos e usuários**.  
 O projeto demonstra uma arquitetura limpa em camadas, integração com **PostgreSQL**, segurança com **Spring Security** e uso de **JPA/Hibernate** para persistência de dados.
 
 ---
 
-## 🚀 Tecnologias Utilizadas
+##  Tecnologias Utilizadas
 
 - **Spring Boot 3.x**
 - **Spring Security (JWT)**
@@ -16,7 +16,7 @@ O projeto demonstra uma arquitetura limpa em camadas, integração com **Postgre
 
 ---
 
-## 🏗️ Arquitetura do Projeto
+##  Arquitetura do Projeto
 
 com.example.authwichproducts/
 ├── controller/ # Controladores REST (endpoints da API)
@@ -50,10 +50,10 @@ spring.jpa.hibernate.ddl-auto=update
 spring.jpa.show-sql=true
 spring.jpa.properties.hibernate.dialect=org.hibernate.dialect.PostgreSQLDialect
 ```
-⚠️ Altere as credenciais de banco conforme o seu ambiente.
+ Altere as credenciais de banco conforme o seu ambiente.
 
-📦 Endpoints Principais
-🔑 Autenticação
+ Endpoints Principais
+ Autenticação
 POST /auth/register
 Registra um novo usuário.
 Body:
@@ -107,12 +107,12 @@ Copiar código
 DELETE /api/produtos/{id}
 Remove um produto existente.
 
-## 🔐 Todos os endpoints /api/** exigem o header:
+##  Todos os endpoints /api/** exigem o header:
 
 makefile
 Copiar código
 Authorization: Bearer <seu_token_jwt>
-## 🧠 Conceitos Aplicados
+##  Conceitos Aplicados
 JWT Authentication → autenticação stateless via token
 
 Spring Security → controle de acesso e filtros
@@ -123,7 +123,7 @@ JPA/Hibernate → ORM e persistência
 
 Tratamento Global de Exceções → respostas JSON padronizadas
 
-## 🧰 Como Executar
+##  Como Executar
 Pré-requisitos
 Java 17+
 
