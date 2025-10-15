@@ -18,14 +18,14 @@ O projeto demonstra uma arquitetura limpa em camadas, integração com **Postgre
 
 ##  Arquitetura do Projeto
 
-com.example.authwichproducts/
-├── controller/ # Controladores REST (endpoints da API)
-├── model/ # Entidades JPA (Usuario, Produto)
-├── repository/ # Interfaces JpaRepository
-├── service/ # Regras de negócio (Usuário, Produto)
-├── security/ # Configurações e filtros JWT
-├── exceptions/ # Tratamento global de erros
-└── AuthWichProductsApplication.java
+com.example.authwichproducts/ <br>
+├── controller/ # Controladores REST (endpoints da API) <br>
+├── model/ # Entidades JPA (Usuario, Produto) <br>
+├── repository/ # Interfaces JpaRepository <br>
+├── service/ # Regras de negócio (Usuário, Produto) <br>
+├── security/ # Configurações e filtros JWT <br>
+├── exceptions/ # Tratamento global de erros <br>
+└── AuthWichProductsApplication.java <br>
 
 yaml
 Copiar código
